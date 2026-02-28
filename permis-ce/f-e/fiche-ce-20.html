@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Fiche écrite n°20-Permis C</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Fiche écrite n°20</h1>
+
+      <button>Commencer</button>
+    </header>
+
+    <main>
+      <section id="quiz" hidden>
+        <h2 id="questionText">Question (js)</h2>
+
+        <form id="answerForm">
+          <label for="answerInput">Entrez votre réponse ici :</label>
+          <input id="answerInput" type="text" required />
+          <button type="submit">Valider</button>
+        </form>
+      </section>
+
+      <section id="results" hidden>
+        <h2>Résultats</h2>
+        <p>Score : <span id="score">0</span>/10</p>
+        <p>Note plateau : <span id="plateauPoints">0</span>/3</p>
+        <p>Statut : <span id="status">-</span></p>
+      </section>
+    </main>
+  </body>
+</html>
