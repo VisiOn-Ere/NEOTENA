@@ -1,131 +1,522 @@
 <!doctype html>
 <!-- Dis au navigateur : c'est du html 5 = version la + récente. -->
 <html lang="fr">
-  <!-- Langue principale du contenu : prononciation des mots, accents... En SEO : public ciblé, langue du site, savoir si besoin traduction. -->
+<!-- Langue principale du contenu : prononciation des mots, accents... En SEO : public ciblé, langue du site, savoir si besoin traduction. -->
 
-  <head>
-    <!-- Infos invisibles = SEO, titre, encodage... -->
-    <meta charset="UTF-8" />
-    <!--Eviter pb interprétation binaire, lire correctement les é; à; è; ç : toutes les lettre fr, cara spé, émojis, quasi toutes langues du monde. Meta = métadonnées : charset, responsive, SEO.-->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- name = type d'info que je vais donner; viewport = zone visible de la page; content = para que je veux appliquer "w[...]th" = la l de la page doit être = à la l de l'appareil; "i[...]=1" = zoom normal. -->
-    <title>NEOTENA-Entrainement aux permis C et CE.</title>
-    <!-- Titre de l'onglet. -->
-  </head>
+<head>
+  <!-- Infos invisibles = SEO, titre, encodage... -->
+  <meta charset="UTF-8" />
+  <!--Eviter pb interprétation binaire, lire correctement les é; à; è; ç : toutes les lettre fr, cara spé, émojis, quasi toutes langues du monde. Meta = métadonnées : charset, responsive, SEO.-->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- name = type d'info que je vais donner; viewport = zone visible de la page; content = para que je veux appliquer "w[...]th" = la l de la page doit être = à la l de l'appareil; "i[...]=1" = zoom normal. -->
+  <title>NEOTENA-Entrainement aux permis C et CE.</title>
+  <!-- Titre de l'onglet. -->
+</head>
 
-  <body>
-    <!-- Contenu visible de la page. -->
-    <header>
-      <!-- 1. En-tête. Contient titre du site, logo (<img>), menu naviguation, une phrase d'accroche, éventuellement un bouton principal.=> présente le site. 
+<body>
+  <!-- Contenu visible de la page. -->
+  <header>
+    <!-- 1. En-tête. Contient titre du site, logo (<img>), menu naviguation, une phrase d'accroche, éventuellement un bouton principal.=> présente le site. 
 		Sert à : introduire une page, introduire une section, structurer proprement, aider les moteurs de recherche-->
-      <h1>NEOTENA</h1>
-      <!-- h1 à h6 = Titres : hiérarchie, important pour SEO. h1 = titre u site.-->
-      <p>
-        <!-- Paragraphe. -->
-        Site <strong>moderne</strong> d'entraînement aux permis C et CE.
-      </p>
-      <!-- Phrase d'accroche. -->
-      <p>Choisissez une rubrique d'apprentissage :</p>
+    <h1>NEOTENA</h1>
+    <!-- h1 à h6 = Titres : hiérarchie, important pour SEO. h1 = titre u site.-->
+    <p>
+      <!-- Paragraphe. -->
+      Site <strong>moderne</strong> d'entraînement aux permis C et CE.
+    </p>
+    <!-- Phrase d'accroche. -->
+    <p>Choisissez une rubrique d'apprentissage :</p>
 
-      <nav>
-        <!-- 2. Naviguation.-->
-        <a href="#permis-c">Permis C</a>
-        <!--Le "#" = ancre interne, permet de se déplacer vers un élément qui possède un "id".-->
-        <a href="#permis-ce">Permis CE</a>
-        <a href="#fiches-orales">Fiches orales</a>
-        <a href="#rse-ct">RSE et Code du travail</a>
-        <a href="#chronotachygraphe">Chronotachygraphe</a>
-        <a href="#c-r">Code de la route</a>
-        <a href="#m-e-s">Mise en situation</a>
-      </nav>
-    </header>
+    <nav>
+      <!-- 2. Naviguation.-->
+      <a href="#permis-c">Permis C</a>
+      <!--Le "#" = ancre interne, permet de se déplacer vers un élément qui possède un "id".-->
+      <a href="#permis-ce">Permis CE</a>
+      <a href="#fiches-orales">Fiches orales</a>
+      <a href="#rse-ct">RSE et Code du travail</a>
+      <a href="#chronotachygraphe">Chronotachygraphe</a>
+      <a href="#c-r">Code de la route</a>
+      <a href="#m-e-s">Mise en situation</a>
+    </nav>
+  </header>
 
-    <main>
-      <!-- 3. Contenu principal. -->
-      <section id="permis-c">
-        <!-- Une section est un bloc, sert à organiser. Ne change pas la structure.-->
-        <header>
-          <!-- Pour présenter la rubrique. -->
-          <h2>Permis C</h2>
-          <!--Titre de la rubrique.-->
+  <main>
+    <!-- 3. Contenu principal. -->
+    <section id="permis-c">
+      <!-- Une section est un bloc, sert à organiser. Ne change pas la structure.-->
+      <header>
+        <!-- Pour présenter la rubrique. -->
+        <h2>Permis C</h2>
+        <!--Titre de la rubrique.-->
 
-          <p>Ici prévu QE, FO, TV, S1, S2, VAD pour le permis C.</p>
-          <p>Choisissez votre chapitre :</p>
+        <p>Ici prévu QE, FO, TV, S1, S2, VAD pour le permis C.</p>
+        <p>Choisissez votre chapitre :</p>
 
-          <nav>
-            <ul>
-              <li><a href="#q-e">Questions écrites</a></li>
-              <li><a href="#s-1">Socle 1</a></li>
-              <li><a href="#t-v">Thèmes de vérification</a></li>
-              <li><a href="#s-2">Socle 2</a></li>
-              <li><a href="#m-c">Manœuvres</a></li>
-              <li><a href="#g-e-c">Grille d'évaluation</a></li>
-            </ul>
-          </nav>
-        </header>
+        <nav>
+          <ul>
+            <li><a href="#q-e">Questions écrites</a></li>
+            <li><a href="#s-1">Socle 1</a></li>
+            <li><a href="#t-v">Thèmes de vérification</a></li>
+            <li><a href="#s-2">Socle 2</a></li>
+            <li><a href="#m-c">Manœuvres</a></li>
+            <li><a href="#g-e-c">Grille d'évaluation</a></li>
+          </ul>
+        </nav>
+      </header>
 
-        <section id="q-e">
-          <h3>Fiches écrites</h3>
+      <section id="q-e">
+        <h3>Fiches écrites</h3>
 
-          <p>10 questions par fiche, résultat affiché à la fin.</p>
-          <p>Choisissez votre fiche :</p>
+        <p>10 questions par fiche, résultat affiché à la fin.</p>
+        <p>Choisissez votre fiche :</p>
 
-          <nav>
-            <ul>
-              <li><a href="permis-c/f-e/fiche-01.html">Fiche écrite n°1</a></li>
-              <!--Pour mettre un lien vers un autre .html, ne pas mettre "#", mettre le nom de fichier. 
+        <nav>
+          <ul>
+            <li><a href="permis-c/f-e/fiche-01.html">Fiche écrite n°1</a></li>
+            <!--Pour mettre un lien vers un autre .html, ne pas mettre "#", mettre le nom de fichier. 
                 Cela ouvre une nouvelle page, mais pas de nouvel onglet.
                 Pour un nouvel onglet, il faut target="_blank".-->
-              <li><a href="permis-c/f-e/fiche-02.html">Fiche écrite n°2</a></li>
-              <li><a href="permis-c/f-e/fiche-03.html">Fiche écrite n°3</a></li>
-              <li><a href="permis-c/f-e/fiche-04.html">Fiche écrite n°4</a></li>
-              <li><a href="permis-c/f-e/fiche-05.html">Fiche écrite n°5</a></li>
-              <li><a href="permis-c/f-e/fiche-06.html">Fiche écrite n°6</a></li>
-              <li><a href="permis-c/f-e/fiche-07.html">Fiche écrite n°7</a></li>
-              <li><a href="permis-c/f-e/fiche-08.html">Fiche écrite n°8</a></li>
-              <li><a href="permis-c/f-e/fiche-09.html">Fiche écrite n°9</a></li>
-              <li>
-                <a href="permis-c/f-e/fiche-10.html">Fiche écrite n°10</a>
-              </li>
-              <li>
-                <a href="permis-c/f-e/fiche-11.html">Fiche écrite n°11</a>
-              </li>
-              <li>
-                <a href="permis-c/f-e/fiche-12.html">Fiche écrite n°12</a>
-              </li>
-              <li>
-                <a href="permis-c/f-e/fiche-13.html">Fiche écrite n°13</a>
-              </li>
-              <li>
-                <a href="permis-c/f-e/fiche-14.html">Fiche écrite n°14</a>
-              </li>
-              <li>
-                <a href="permis-c/f-e/fiche-15.html">Fiche écrite n°15</a>
-              </li>
-              <li>
-                <a href="permis-c/f-e/fiche-16.html">Fiche écrite n°16</a>
-              </li>
-              <li>
-                <a href="permis-c/f-e/fiche-17.html">Fiche écrite n°17</a>
-              </li>
-              <li>
-                <a href="permis-c/f-e/fiche-18.html">Fiche écrite n°18</a>
-              </li>
-              <li>
-                <a href="permis-c/f-e/fiche-19.html">Fiche écrite n°19</a>
-              </li>
-              <li>
-                <a href="permis-c/f-e/fiche-20.html">Fiche écrite n°20</a>
-              </li>
-            </ul>
-          </nav>
+            <li><a href="permis-c/f-e/fiche-02.html">Fiche écrite n°2</a></li>
+            <li><a href="permis-c/f-e/fiche-03.html">Fiche écrite n°3</a></li>
+            <li><a href="permis-c/f-e/fiche-04.html">Fiche écrite n°4</a></li>
+            <li><a href="permis-c/f-e/fiche-05.html">Fiche écrite n°5</a></li>
+            <li><a href="permis-c/f-e/fiche-06.html">Fiche écrite n°6</a></li>
+            <li><a href="permis-c/f-e/fiche-07.html">Fiche écrite n°7</a></li>
+            <li><a href="permis-c/f-e/fiche-08.html">Fiche écrite n°8</a></li>
+            <li><a href="permis-c/f-e/fiche-09.html">Fiche écrite n°9</a></li>
+            <li>
+              <a href="permis-c/f-e/fiche-10.html">Fiche écrite n°10</a>
+            </li>
+            <li>
+              <a href="permis-c/f-e/fiche-11.html">Fiche écrite n°11</a>
+            </li>
+            <li>
+              <a href="permis-c/f-e/fiche-12.html">Fiche écrite n°12</a>
+            </li>
+            <li>
+              <a href="permis-c/f-e/fiche-13.html">Fiche écrite n°13</a>
+            </li>
+            <li>
+              <a href="permis-c/f-e/fiche-14.html">Fiche écrite n°14</a>
+            </li>
+            <li>
+              <a href="permis-c/f-e/fiche-15.html">Fiche écrite n°15</a>
+            </li>
+            <li>
+              <a href="permis-c/f-e/fiche-16.html">Fiche écrite n°16</a>
+            </li>
+            <li>
+              <a href="permis-c/f-e/fiche-17.html">Fiche écrite n°17</a>
+            </li>
+            <li>
+              <a href="permis-c/f-e/fiche-18.html">Fiche écrite n°18</a>
+            </li>
+            <li>
+              <a href="permis-c/f-e/fiche-19.html">Fiche écrite n°19</a>
+            </li>
+            <li>
+              <a href="permis-c/f-e/fiche-20.html">Fiche écrite n°20</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+
+      <section id="s-1">
+        <h3>Socle 1</h3>
+
+        <section>
+          <h4>A l'intérieur :</h4>
+          <ul>
+            <li>Immobilisation;</li>
+            <li>Porte-document;</li>
+            <li>Cabine verrouillée.</li>
+          </ul>
+          <p>
+            "Je mets le contact. Le véhicule est bien immobilisé car le voyant
+            me le confirme. Le porte-documents est bien présent et je n'ai pas
+            de voyant cabine sur le tableau de bord donc ma cabine est bien
+            verrouillée."
+          </p>
+          <p>
+            Bien montrer, faire des gestes. Il est important de ne pas se
+            comporter comme un robot.
+          </p>
+          <p>
+            "J'allume mes feux de position, gabarit, croisement et de détresse
+            et je vous invite à descendre du véhicule pour les vérifications
+            extérieures."
+          </p>
+          <p>
+            Mettez vos <strong>gants</strong>, descendez avec <strong>3 points d'appui</strong> et penser à
+            fermer la <strong>porte</strong>.
+          </p>
         </section>
 
-        <section id="s-1">
-          <h3>Socle 1</h3>
+        <section>
+          <h4>A l'extérieur :</h4>
 
           <section>
-            <h4>A l'intérieur :</h4>
+            <h5>Devant le véhicule :</h5>
+            <ul>
+              <li>Feux;</li>
+              <li>Carrosserie;</li>
+              <li>Pare-brise;</li>
+              <li>Antéviseur et sa glace.</li>
+            </ul>
+            <p>
+              "Pour commencer, devant le véhicule : L'ensemble de mes feux ne
+              présentent pas d'anomalie. Ma carrosserie, mon pare-brise et mon
+              antéviseur avec sa glace ne présentent pas d'anomalie."
+            </p>
+            <p>
+              Ici, encore, faites bien les <strong>gestes</strong>, montrez de
+              quoi vous parler. Prenez le temps de bien
+              <strong>regarder</strong> efficacement si tout va bien, avant
+              d'affirmer qu'il n'y a aucune anomalie. Si une anomalie se
+              présente, alors la citer plutôt que se contenter de dire "pas
+              d'anomalie".
+            </p>
+            <p>Exemples d'anomalies :</p>
+            <ul>
+              <li>
+                Sale (très sale, assez pour devoir en parler, les rétros par
+                exemple);
+              </li>
+              <li>Impacts, rayures;</li>
+              <li>Feu qui ne marche pas;</li>
+              <li>Casse.</li>
+            </ul>
+          </section>
+
+          <section>
+            <h5>Côté droit de la cabine :</h5>
+            <ul>
+              <li>Feux;</li>
+              <li>Carrosserie;</li>
+              <li>Vitre, rétroviseurs et leur glace;</li>
+              <li>Roue.</li>
+            </ul>
+            <p>
+              "Côté droit de ma cabine, mes feux, ma carrosserie, ma vitre,
+              mes rétroviseurs et leur glace, ainsi que ma roue ne présentent
+              pas d'anomalie.
+            </p>
+            <p>
+              Il est effectivement possible de tout citer d'un coup, à
+              condition toujours de bien regarder et montrer. Pour la roue,
+              vérifier rapidement l'état des crampons, de la bande de
+              roulement. Vous montrerez que vous ne vous contentez pas de
+              réciter.
+            </p>
+          </section>
+
+          <section>
+            <h5>Côté droit de la caisse :</h5>
+            <ul>
+              <li>Feux;</li>
+              <li>Carrosserie;</li>
+              <li>Roues;</li>
+              <li>Tâche.</li>
+            </ul>
+            <p>
+              "Côté droit de ma caisse, mes feux, ma carrosserie, ainsi que
+              <strong>mes roues</strong> ne présentent pas d'anomalie."
+            </p>
+            <p>
+              Derrière se situent des roues jumelées, donc on dit "mes roues".
+            </p>
+            <p>
+              Baissez vous en utilisant vos <strong>jambes</strong> et non votre dos : "Pas de
+              tâche sous le véhicule donc pas de fuite apparente."
+            </p>
+          </section>
+
+          <section>
+            <h5>A l'arrière du véhicule :</h5>
+            <ul>
+              <li>Feux;</li>
+              <li>Carrosserie;</li>
+              <li>Chargement.</li>
+            </ul>
+            <p>
+              "A l'arrière de mon véhicule, mes feux et ma carrosserie ne
+              présentent pas d'anomalie. Je vérifie mon chargement, en ouvrant
+              légèrement la porte, je fais attention à ce que rien ne tombe.
+              Le chargement ne présente pas d'anomalie."
+            </p>
+            <p>
+              Lors de la vérification du chargement, l'objectif est
+              d'entre-ouvrir et de passer votre tête pour vraiment regarder si
+              tout va bien. Ne vous embêtez pas à ouvrir en grand pour montrer
+              à l'inspecteur, lui veut seulement voir si vous pensez à le
+              faire.
+            </p>
+            <p>
+              Pour finir les vérifications de l'arrière, vérifiez les freins.
+              Faites le en dernier, comme ça une fois fini vous n'avez à
+              revenir derrière.
+            </p>
+            <p>
+              "Monsieur l'inspecteur, je vais aller appuyer sur la pédale de
+              frein, pouvez-vous m'indiquer si les feux s'allument ?"
+            </p>
+            <p>Pour cela 2 options :</p>
+            <ul>
+              <li>
+                Vous ouvrez la porte et appuyez avec votre main sans monter
+                sur les marches, donc en restant bien au <strong>sol</strong>.
+              </li>
+              <li>
+                Vous montez, fermez la porte, ouvrez la vitre pour entendre
+                l'inspecteur, puis redescendez (le tout correctement) en
+                pensant à refermer la porte.
+              </li>
+            </ul>
+            <p>Pensez à refermer la vitre pour la vérifier plus tard.</p>
+            <p>
+              Après validation du fonctionnement des feux : "Mes feux stop ne
+              présentent pas d'anomalie."
+            </p>
+          </section>
+
+          <section>
+            <h5>Côté gauche de la caisse :</h5>
+            <ul>
+              <li>Feux;</li>
+              <li>Carrosserie;</li>
+              <li>Roues.</li>
+            </ul>
+            <p>
+              "Côté gauche de ma caisse, mes feux, ma carrosserie, ainsi que
+              <strong>mes roues</strong> ne présentent pas d'anomalie."
+            </p>
+          </section>
+
+          <section>
+            <h5>Côté gauche de la cabine :</h5>
+            <ul>
+              <li>Feux;</li>
+              <li>Carrosserie;</li>
+              <li>Vitre, rétroviseurs et leur glace;</li>
+              <li>Roue.</li>
+            </ul>
+            <p>
+              "Côté gauche de ma cabine, mes feux, ma carrosserie, ma vitre,
+              mes rétroviseurs et leur glace, ainsi que ma roue ne présentent
+              pas d'anomalie."
+            </p>
+            <p>"Fin du socle."</p>
+          </section>
+        </section>
+      </section>
+
+      <section id="t-v">
+        <h3>Thèmes de vérifications</h3>
+
+        <p>Tous les détails pour de bonnes vérifications du véhicule.</p>
+        <p>Sélectionnez un thème :</p>
+
+        <nav>
+          <ul>
+            <li>
+              <a href="permis-c/t-v/t1.html">Thème 1 : Docuements de bord, triangle, extincteur
+              </a>
+            </li>
+            <li>
+              <a href="permis-c/t-v/t2.html">Thème 2 : Feux, dispositifs de contrôle et accessoires
+              </a>
+            </li>
+            <li>
+              <a href="permis-c/t-v/t3.html">Thème 3 : Niveaux, glaces, rétroviseurs, essuie-glace
+              </a>
+            </li>
+            <li>
+              <a href="permis-c/t-v/t4.html">Thème 4 : Pneumatiques, roues, suspension, direction
+              </a>
+            </li>
+            <li>
+              <a href="permis-c/t-v/t5.html">Thème 5 : Caractéristiques du véhicule
+              </a>
+            </li>
+            <li>
+              <a href="permis-c/t-v/t6.html">Thème 6 : Transport de marchandises
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+
+      <section id="s-2">
+        <h3>Socle 2</h3>
+        <section>
+          <h4>Démarrage :</h4>
+          <p>Après démarrage, vérifier :</p>
+          <ul>
+            <li>Voyants;</li>
+            <li>Pression;</li>
+          </ul>
+          <p>Ensuite, s'installer et annoncer le début de l'essai.</p>
+          <p>"Après démarrage du véhicule, je constate que les seuls voyants allumés sont ma ceinture puisque je l'ai
+            pas et le frein de park puisqu'il est enclenché, donc de voyant anomraux allumé. Je m'installe... Je peux
+            commencer mes essais de frein."</p>
+        </section>
+
+        <section>
+          <h3>Frein de park :</h3>
+          <ul>
+            <li>Passer marche avant;</li>
+            <li>Maintenir le frein de park s'il s'enlève automatiquement;</li>
+            <li>Accélérer;</li>
+            <li>Constater que le FP retient le véhicule;</li>
+            <li>Enlever le FP;</li>
+            <li>Pas de voyants anormaux ni chute anormale de pression;</li>
+            <li>Test frein de service.</li>
+          </ul>
+          <p>"Je commence par mon frein de park, je passe la marche avant et le maintiens tiré sinon il s'enlève
+            automatiquement. Après accélération, le frein de park retient bien mon véhicule. Je l'enlève (en accélérant
+            à peine sans le maintenir tiré cette fois)... Une fois retiré je ne constate aucune chute anormale de
+            pression ni de voyant anormalement allumé. Je peux passer au test de frein de service."</p>
+        </section>
+
+        <section>
+          <h3>Frein de service :</h3>
+          <ul>
+            <li>Avancer;</li>
+            <li>Freiner;</li>
+            <li>Maintenir appuyé;</li>
+            <li>Retient véhicule;</li>
+            <li>Pas de voyants anormaux ni de chute anormale de pression.</li>
+          </ul>
+          <p>"J'avance...(freinage). En maintenant le pied appuyé, je constate que le frein de service retient bien mon
+            véhicule, qu'il n'y a pas de chute anomrale de pression ni de voyant anormalement allumé."</p>
+        </section>
+        <p>"L'essai de frein est terminé et concluant."z</p>
+      </section>
+
+      <section id="m-c">
+        <h3>Manœuvres.</h3>
+        <p>Repaires, photos, conseils.</p>
+      </section>
+
+      <section id="g-e-c">
+        <h3>Grille d'évaluation</h3>
+      </section>
+    </section>
+
+    <section id="permis-ce">
+      <header>
+        <h2>Permis CE</h2>
+
+        <p>Ici prévu QE, FO, TV, S1, S2, VAD pour le permis CE.</p>
+        <p>Choisissez votre chapitre :</p>
+
+        <nav>
+          <ul>
+            <li>
+              <a href="#q-e2">Questions écrites</a>
+            </li>
+            <li>
+              <a href="#s1-2">Socle 1 : vérifications générales</a>
+            </li>
+            <li>
+              <a href="#s2-2">Socle 2 : attelage</a>
+            </li>
+            <li>
+              <a href="#v-f">Vérifications du fonctionnement des feux</a>
+            </li>
+            <li>
+              <a href="#t-v2">Thèmes de vérification</a>
+            </li>
+            <li>
+              <a href="#s-3">Socle 3 : essais de frein</a>
+            </li>
+            <li>
+              <a href="#m-ce">Manœuvres</a>
+            </li>
+            <li>
+              <a href="#d">Dételage</a>
+            </li>
+            <li>
+              <a href="#g-e-ce">Grille d'évaluation</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <section id="q-e2">
+        <h3>Fiches écrites</h3>
+        <nav>
+          <ul>
+            <li>
+              <a href="permis-ce/f-e2/fiche-ce-01.html">Fiche écrite n°1</a>
+            </li>
+            <li>
+              <a href="permis-ce/f-e2/fiche-ce-02.html">Fiche écrite n°2</a>
+            </li>
+            <li>
+              <a href="permis-ce/f-e2/fiche-ce-03.html">Fiche écrite n°3</a>
+            </li>
+            <li>
+              <a href="permis-ce/f-e2/fiche-ce-04.html">Fiche écrite n°4</a>
+            </li>
+            <li>
+              <a href="permis-ce/f-e2/fiche-ce-05.html">Fiche écrite n°5</a>
+            </li>
+            <li>
+              <a href="permis-ce/f-e2/fiche-ce-06.html">Fiche écrite n°6</a>
+            </li>
+            <li>
+              <a href="permis-ce/f-e2/fiche-ce-07.html">Fiche écrite n°7</a>
+            </li>
+            <li>
+              <a href="permis-ce/f-e2/fiche-ce-08.html">Fiche écrite n°8</a>
+            </li>
+            <li>
+              <a href="permis-ce/f-e2/fiche-ce-09.html">Fiche écrite n°9</a>
+            </li>
+            <li>
+              <a href="permis-ce/f-e2/fiche-ce-10.html">Fiche écrite n°10</a>
+            </li>
+            <li>
+              <a href="permis-ce/f-e2/fiche-ce-11.html">Fiche écrite n°11</a>
+            </li>
+            <li>
+              <a href="permis-ce/f-e2/fiche-ce-12.html">Fiche écrite n°12</a>
+            </li>
+            <li>
+              <a href="permis-ce/f-e2/fiche-ce-13.html">Fiche écrite n°13</a>
+            </li>
+            <li>
+              <a href="permis-ce/f-e2/fiche-ce-14.html">Fiche écrite n°14</a>
+            </li>
+            <li>
+              <a href="permis-ce/f-e2/fiche-ce-15.html">Fiche écrite n°15</a>
+            </li>
+            <li>
+              <a href="permis-ce/f-e2/fiche-ce-16.html">Fiche écrite n°16</a>
+            </li>
+            <li>
+              <a href="permis-ce/f-e2/fiche-ce-17.html">Fiche écrite n°17</a>
+            </li>
+            <li>
+              <a href="permis-ce/f-e2/fiche-ce-18.html">Fiche écrite n°18</a>
+            </li>
+            <li>
+              <a href="permis-ce/f-e2/fiche-ce-19.html">Fiche écrite n°19</a>
+            </li>
+            <li>
+              <a href="permis-ce/f-e2/fiche-ce-20.html">Fiche écrite n°20</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+
+      <section id="s1-2">
+        <h3>Socle 1 : vérifications générales</h3>
+        <section>
+          <h4>Le véhicule tracteur :</h4>
+          <section>
+            <h5>A l'intérieur :</h5>
             <ul>
               <li>Immobilisation;</li>
               <li>Porte-document;</li>
@@ -141,35 +532,29 @@
               Bien montrer, faire des gestes. Il est important de ne pas se
               comporter comme un robot.
             </p>
+            <p>"Nous pouvons descendre pour les vérifications extérieures."</p>
             <p>
-              "J'allume mes feux de position, gabarit, croisement et de détresse
-              et je vous invite à descendre du véhicule pour les vérifications
-              extérieures."
-            </p>
-            <p>
-              Mettez vos gants, descendez avec 3 points d'appui et penser à
-              fermer la porte.
+              Mettez vos <strong>gants</strong>, descendez avec <strong>3 points d'appui</strong> et penser à
+              fermer la <strong>porte</strong>.
             </p>
           </section>
 
           <section>
-            <h4>A l'extérieur :</h4>
+            <h5>A l'extérieur :</h5>
 
             <section>
-              <h5>Devant le véhicule :</h5>
+              <h6>Devant le véhicule :</h6>
               <ul>
-                <li>Feux;</li>
                 <li>Carrosserie;</li>
                 <li>Pare-brise;</li>
                 <li>Antéviseur et sa glace.</li>
               </ul>
               <p>
-                "Pour commencer, devant le véhicule : L'ensemble de mes feux ne
-                présentent pas d'anomalie. Ma carrosserie, mon pare-brise et mon
+                "Pour commencer, devant le véhicule : Ma carrosserie, mon pare-brise et mon
                 antéviseur avec sa glace ne présentent pas d'anomalie."
               </p>
               <p>
-                Ici, encore, faites bien les <strong>gestes</strong>, montrez de
+                Faites bien les <strong>gestes</strong>, montrez de
                 quoi vous parler. Prenez le temps de bien
                 <strong>regarder</strong> efficacement si tout va bien, avant
                 d'affirmer qu'il n'y a aucune anomalie. Si une anomalie se
@@ -183,27 +568,25 @@
                   exemple);
                 </li>
                 <li>Impacts, rayures;</li>
-                <li>Feu qui ne marche pas;</li>
                 <li>Casse.</li>
               </ul>
             </section>
 
             <section>
-              <h5>Côté droit de la cabine :</h5>
+              <h6>Côté droit de la cabine :</h6>
               <ul>
-                <li>Feux;</li>
                 <li>Carrosserie;</li>
                 <li>Vitre, rétroviseurs et leur glace;</li>
                 <li>Roue.</li>
               </ul>
               <p>
-                "Côté droit de ma cabine, mes feux, ma carrosserie, ma vitre,
+                "Côté droit de ma cabine, ma carrosserie, ma vitre,
                 mes rétroviseurs et leur glace, ainsi que ma roue ne présentent
                 pas d'anomalie.
               </p>
               <p>
                 Il est effectivement possible de tout citer d'un coup, à
-                condition toujours de bien regarder et montrer. Pour la roue,
+                condition toujours de bien <strong>regarder</strong> et <strong>montrer</strong>. Pour la roue,
                 vérifier rapidement l'état des crampons, de la bande de
                 roulement. Vous montrerez que vous ne vous contentez pas de
                 réciter.
@@ -211,36 +594,32 @@
             </section>
 
             <section>
-              <h5>Côté droit de la caisse :</h5>
+              <h6>Côté droit de la caisse :</h6>
               <ul>
-                <li>Feux;</li>
                 <li>Carrosserie;</li>
                 <li>Roues;</li>
                 <li>Tâche.</li>
               </ul>
               <p>
-                "Côté droit de ma caisse, mes feux, ma carrosserie, ainsi que
-                <strong>mes roues</strong> ne présentent pas d'anomalie."
+                "Côté droit de ma caisse, ma carrosserie ainsi que
+                mes roues ne présentent pas d'anomalie."
               </p>
               <p>
                 Derrière se situent des roues jumelées, donc on dit "mes roues".
               </p>
-              <p>
-                Baissez vous en utilisant vos jambes et non votre dos : "Pas de
-                tâche sous le véhicule donc pas de fuite apparente."
-              </p>
+              <p>Baissez vous en utilisant vos <strong>jambes</strong> et non votre dos :</p>
+              <p>"Pas de tâche sous le véhicule donc pas de fuite apparente."</p>
             </section>
 
             <section>
-              <h5>A l'arrière du véhicule :</h5>
+              <h6>A l'arrière du véhicule :</h6>
               <ul>
-                <li>Feux;</li>
                 <li>Carrosserie;</li>
                 <li>Chargement.</li>
               </ul>
               <p>
-                "A l'arrière de mon véhicule, mes feux et ma carrosserie ne
-                présentent pas d'anomalie. Je vérifie mon chargement, en ouvrant
+                "A l'arrière de mon véhicule, ma carrosserie ne
+                présente pas d'anomalie. Je vérifie mon chargement, en ouvrant
                 légèrement la porte, je fais attention à ce que rien ne tombe.
                 Le chargement ne présente pas d'anomalie."
               </p>
@@ -253,7 +632,7 @@
               </p>
               <p>
                 Pour finir les vérifications de l'arrière, vérifiez les freins.
-                Faites le en dernier, comme ça une fois fini vous n'avez à
+                Faites le en dernier, comme ça une fois fini vous n'avez pas à
                 revenir derrière.
               </p>
               <p>
@@ -280,484 +659,300 @@
             </section>
 
             <section>
-              <h5>Côté gauche de la caisse :</h5>
+              <h6>Côté gauche de la caisse :</h6>
               <ul>
-                <li>Feux;</li>
                 <li>Carrosserie;</li>
                 <li>Roues.</li>
               </ul>
               <p>
-                "Côté gauche de ma caisse, mes feux, ma carrosserie, ainsi que
-                <strong>mes roues</strong> ne présentent pas d'anomalie."
+                "Côté gauche de ma caisse, ma carrosserie ainsi que
+                mes roues ne présentent pas d'anomalie."
               </p>
             </section>
 
             <section>
-              <h5>Côté gauche de la cabine :</h5>
+              <h6>Côté gauche de la cabine :</h6>
               <ul>
-                <li>Feux;</li>
                 <li>Carrosserie;</li>
                 <li>Vitre, rétroviseurs et leur glace;</li>
                 <li>Roue.</li>
               </ul>
               <p>
-                "Côté gauche de ma cabine, mes feux, ma carrosserie, ma vitre,
+                "Côté gauche de ma cabine, ma carrosserie, ma vitre,
                 mes rétroviseurs et leur glace, ainsi que ma roue ne présentent
                 pas d'anomalie."
               </p>
-              <p>"Fin du socle."</p>
             </section>
           </section>
         </section>
-
-        <section id="t-v">
-          <h3>Thèmes de vérifications</h3>
-
-          <p>Tous les détails pour de bonnes vérifications du véhicule.</p>
-          <p>Sélectionnez un thème :</p>
-
-          <nav>
-            <ul>
-              <li>
-                <a href="permis-c/t-v/t1.html"
-                  >Thème 1 : Docuements de bord, triangle, extincteur
-                </a>
-              </li>
-              <li>
-                <a href="permis-c/t-v/t2.html"
-                  >Thème 2 : Feux, dispositifs de contrôle et accessoires
-                </a>
-              </li>
-              <li>
-                <a href="permis-c/t-v/t3.html"
-                  >Thème 3 : Niveaux, glaces, rétroviseurs, essuie-glace
-                </a>
-              </li>
-              <li>
-                <a href="permis-c/t-v/t4.html"
-                  >Thème 4 : Pneumatiques, roues, suspension, direction
-                </a>
-              </li>
-              <li>
-                <a href="permis-c/t-v/t5.html"
-                  >Thème 5 : Caractéristiques du véhicule
-                </a>
-              </li>
-              <li>
-                <a href="permis-c/t-v/t6.html"
-                  >Thème 6 : Transport de marchandises
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </section>
-
-        <section id="s-2">
-          <h3>Socle 2</h3>
+        <section>
+          <h4>La remorque :</h4>
           <section>
-            <h4>Démarrage :</h4>
-            <p>Après démarrage, vérifier :</p>
+            <h5>A l'avant :</h5>
             <ul>
-              <li>Voyants;</li>
-              <li>Pression;</li>
+              <li>Carrosserie.</li>
             </ul>
-            <p>Ensuite, s'installer et annoncer le début de l'essai.</p>
+            <p>"A l'avant de ma remorque, ma carrosserie ne présente pas d'anomalie."</p>
+            <p>"A l'avant de ma remorque, la carrosserie présente un pli au niveau de l'angle supérieur droit."</p>
           </section>
-
           <section>
-            <h3>Frein de park :</h3>
+            <h5>Côté droit :</h5>
             <ul>
-              <li>Passer marche avant;</li>
-              <li>Maintenir le frein de park s'il s'enlève automatiquement;</li>
-              <li>Accélérer;</li>
-              <li>Constater que le FP retient le véhicule;</li>
-              <li>Enlever le FP;</li>
-              <li>Pas de voyants anormaux ni chute anormale de pression;</li>
-              <li>Test frein de service.</li>
+              <li>Carrosserie;</li>
+              <li>Roues.</li>
             </ul>
+            <p>"Côté droit de ma remorque, ma carrosserie et mes roues ne présentent pas d'anomalie."</p>
+            <p>Ici encore, bien aller vérifier l'état, montrez que vous ne vous contentez pas de réciter.</p>
           </section>
-
           <section>
-            <h3>Frein de service :</h3>
+            <h5>A l'arrière :</h5>
             <ul>
-              <li>Avancer;</li>
-              <li>Freiner;</li>
-              <li>Maintenir appuyé;</li>
-              <li>Retient véhicule;</li>
-              <li>Pas de voyants anormaux ni de chute anormale de pression.</li>
+              <li>Carrosserie.</li>
             </ul>
+            <p>A l'arrière de ma remorque, ma carrosserie a visiblement subi un choc lors d'une mise à quai, provoquant
+              son pli vers l'intérieur."</p>
           </section>
-          <p>L'essai de frein est terminé et concluant.</p>
+          <section>
+            <h5>Côté gauche :</h5>
+            <ul>
+              <li>Carrosserie;</li>
+              <li>Roues.</li>
+            </ul>
+            <p>"Côté gauche de ma remorque, ma carrosserie et mes roues ne présentent pas d'anomalie."</p>
+          </section>
         </section>
-
-        <section id="m-c">
-          <h3>Manœuvres.</h3>
-          <p>Repaires, photos, conseils.</p>
-        </section>
-
-        <section id="g-e-c">
-          <h3>Grille d'évaluation</h3>
-        </section>
+        <p>"Fin du socle."</p>
       </section>
 
-      <section id="permis-ce">
-        <header>
-          <h2>Permis CE</h2>
-
-          <p>Ici prévu QE, FO, TV, S1, S2, VAD pour le permis CE.</p>
-          <p>Choisissez votre chapitre :</p>
-
-          <nav>
-            <ul>
-              <li>
-                <a href="#q-e2">Questions écrites</a>
-              </li>
-              <li>
-                <a href="#s1-2">Socle 1 : vérifications générales</a>
-              </li>
-              <li>
-                <a href="#s2-2">Socle 2 : attelage</a>
-              </li>
-              <li>
-                <a href="#v-f">Vérifications du fonctionnement des feux</a>
-              </li>
-              <li>
-                <a href="#t-v2">Thèmes de vérification</a>
-              </li>
-              <li>
-                <a href="#s-3">Socle 3 : essais de frein</a>
-              </li>
-              <li>
-                <a href="#m-ce">Manœuvres</a>
-              </li>
-              <li>
-                <a href="#d">Dételage</a>
-              </li>
-              <li>
-                <a href="#g-e-ce">Grille d'évaluation</a>
-              </li>
-            </ul>
-          </nav>
-        </header>
-
-        <section id="q-e2">
-          <h3>Fiches écrites</h3>
-          <nav>
-            <ul>
-              <li>
-                <a href="permis-ce/f-e2/fiche-ce-01.html">Fiche écrite n°1</a>
-              </li>
-              <li>
-                <a href="permis-ce/f-e2/fiche-ce-02.html">Fiche écrite n°2</a>
-              </li>
-              <li>
-                <a href="permis-ce/f-e2/fiche-ce-03.html">Fiche écrite n°3</a>
-              </li>
-              <li>
-                <a href="permis-ce/f-e2/fiche-ce-04.html">Fiche écrite n°4</a>
-              </li>
-              <li>
-                <a href="permis-ce/f-e2/fiche-ce-05.html">Fiche écrite n°5</a>
-              </li>
-              <li>
-                <a href="permis-ce/f-e2/fiche-ce-06.html">Fiche écrite n°6</a>
-              </li>
-              <li>
-                <a href="permis-ce/f-e2/fiche-ce-07.html">Fiche écrite n°7</a>
-              </li>
-              <li>
-                <a href="permis-ce/f-e2/fiche-ce-08.html">Fiche écrite n°8</a>
-              </li>
-              <li>
-                <a href="permis-ce/f-e2/fiche-ce-09.html">Fiche écrite n°9</a>
-              </li>
-              <li>
-                <a href="permis-ce/f-e2/fiche-ce-10.html">Fiche écrite n°10</a>
-              </li>
-              <li>
-                <a href="permis-ce/f-e2/fiche-ce-11.html">Fiche écrite n°11</a>
-              </li>
-              <li>
-                <a href="permis-ce/f-e2/fiche-ce-12.html">Fiche écrite n°12</a>
-              </li>
-              <li>
-                <a href="permis-ce/f-e2/fiche-ce-13.html">Fiche écrite n°13</a>
-              </li>
-              <li>
-                <a href="permis-ce/f-e2/fiche-ce-14.html">Fiche écrite n°14</a>
-              </li>
-              <li>
-                <a href="permis-ce/f-e2/fiche-ce-15.html">Fiche écrite n°15</a>
-              </li>
-              <li>
-                <a href="permis-ce/f-e2/fiche-ce-16.html">Fiche écrite n°16</a>
-              </li>
-              <li>
-                <a href="permis-ce/f-e2/fiche-ce-17.html">Fiche écrite n°17</a>
-              </li>
-              <li>
-                <a href="permis-ce/f-e2/fiche-ce-18.html">Fiche écrite n°18</a>
-              </li>
-              <li>
-                <a href="permis-ce/f-e2/fiche-ce-19.html">Fiche écrite n°19</a>
-              </li>
-              <li>
-                <a href="permis-ce/f-e2/fiche-ce-20.html">Fiche écrite n°20</a>
-              </li>
-            </ul>
-          </nav>
-        </section>
-
-        <section id="s1-2">
-          <h3>Socle 1 : vérifications générales</h3>
-          <p>Texte pour socle 1.</p>
-        </section>
-
-        <section id="s2-2">
-          <h3>Socle 2 : Attelage de l'ensemble.</h3>
-          <p>
-            Reculer, essai traction, cale, frein de park, béquille, prises,
-            annonce dimensions et poids.
-          </p>
-        </section>
-
-        <section id="v-f">
-          <h3>Vérification du fonctionnement des feux.</h3>
-          <p>Position, gabarit, croisement, détresse, frein.</p>
-        </section>
-
-        <section id="t-v2">
-          <h3>Thèmes de vérification</h3>
-          <nav>
-            <ul>
-              <li>
-                <a href="permis-ce/t-v2/t1-ce.html"
-                  >Thème 1 : Documents de bord, triganles, extincteur</a
-                >
-              </li>
-              <li>
-                <a href="permis-ce/t-v2/t2-ce.html"
-                  >Thème 2 : Feux, dispositifs de contrôle et accessoires</a
-                >
-              </li>
-              <li>
-                <a href="permis-ce/t-v2/t3-ce.html"
-                  >Thème 3 : Niveaux, glaces, rétroviseurs, essuie-glace</a
-                >
-              </li>
-              <li>
-                <a href="permis-ce/t-v2/t4-ce.html"
-                  >Thème 4 : Pneumatiques, roues, suspension, direction</a
-                >
-              </li>
-              <li>
-                <a href="permis-ce/t-v2/t5-ce.html"
-                  >Thème 5 : Caractéristiques de l'ensemble</a
-                >
-              </li>
-              <li>
-                <a href="permis-ce/t-v2/t6-ce.html"
-                  >Thème 6 : Transport de marchandises</a
-                >
-              </li>
-            </ul>
-          </nav>
-        </section>
-
-        <section id="s-3">
-          <h3>Socle 3 : essais de frein.</h3>
-          <p>park puis service avec phrase de fin.</p>
-        </section>
-
-        <section id="m-ce">
-          <h3>Manœuvres.</h3>
-          <p>Conseils, photos, repaires...</p>
-        </section>
-
-        <section id="d">
-          <h3>Dételage.</h3>
-          <p>Immo, sol, park, cale, béquille, prises, verrou...</p>
-        </section>
-
-        <section id="g-e-ce">
-          <h3>Grille d'évaluation</h3>
-        </section>
+      <section id="s2-2">
+        <h3>Socle 2 : Attelage de l'ensemble.</h3>
+        <p>
+          Reculer, essai traction, cale, frein de park, béquille, prises,
+          annonce dimensions et poids.
+        </p>
       </section>
 
-      <section id="fiches-orales">
-        <h2>Fiches orales</h2>
+      <section id="v-f">
+        <h3>Vérification du fonctionnement des feux.</h3>
+        <p>Position, gabarit, croisement, détresse, frein.</p>
+      </section>
 
-        <p>Choisissez votre fiche :</p>
-
+      <section id="t-v2">
+        <h3>Thèmes de vérification</h3>
         <nav>
           <ul>
             <li>
-              <a href="f-o/fo1.html">
-                <span class="numero">Fiche 1 :</span>
-                <span class="theme"
-                  >Conduite dans des conditions atmosphériques difficiles, route
-                  de nuit.
-                </span>
-              </a>
+              <a href="permis-ce/t-v2/t1-ce.html">Thème 1 : Documents de bord, triganles, extincteur</a>
             </li>
             <li>
-              <a href="f-o/fo2.html">
-                <span class="numero">Fiche 2 :</span>
-                <span class="theme">Comportement en cas d'accident. </span>
-              </a>
+              <a href="permis-ce/t-v2/t2-ce.html">Thème 2 : Feux, dispositifs de contrôle et accessoires</a>
             </li>
             <li>
-              <a href="f-o/fo3.html">
-                <span class="numero">Fiche 3 :</span>
-                <span class="theme"
-                  >Conduite en montagne ou zones accidentées.
-                </span>
-              </a>
+              <a href="permis-ce/t-v2/t3-ce.html">Thème 3 : Niveaux, glaces, rétroviseurs, essuie-glace</a>
             </li>
             <li>
-              <a href="f-o/fo4.html">
-                <span class="numero">Fiche 4 :</span>
-                <span class="theme"
-                  >Gestes et postures. Accident du travail.
-                </span>
-              </a>
+              <a href="permis-ce/t-v2/t4-ce.html">Thème 4 : Pneumatiques, roues, suspension, direction</a>
             </li>
             <li>
-              <a href="f-o/fo5.html">
-                <span class="numero">Fiche 5 :</span>
-                <span class="theme">Chargement - Surcharge. </span>
-              </a>
+              <a href="permis-ce/t-v2/t5-ce.html">Thème 5 : Caractéristiques de l'ensemble</a>
             </li>
             <li>
-              <a href="f-o/fo6.html">
-                <span class="numero">Fiche 6 :</span>
-                <span class="theme">Le dépassement. </span>
-              </a>
-            </li>
-            <li>
-              <a href="f-o/fo7.html">
-                <span class="numero">Fiche 7 :</span>
-                <span class="theme">Dynamique du véhicule. </span>
-              </a>
-            </li>
-            <li>
-              <a href="f-o/fo8.html">
-                <span class="numero">Fiche 8 :</span>
-                <span class="theme">Alcool, stupéfiants, médicaments. </span>
-              </a>
-            </li>
-            <li>
-              <a href="f-o/fo9.html">
-                <span class="numero">Fiche 9 :</span>
-                <span class="theme">Eco-conduite et conduite citoyenne. </span>
-              </a>
-            </li>
-            <li>
-              <a href="f-o/fo10.html">
-                <span class="numero">Fiche 10 :</span>
-                <span class="theme">Porte-à-faux - Angles morts. </span>
-              </a>
-            </li>
-            <li>
-              <a href="f-o/fo11.html">
-                <span class="numero">Fiche 11 :</span>
-                <span class="theme"
-                  >Comportement en tunnels et aux passages à niveau.
-                </span>
-              </a>
-            </li>
-            <li>
-              <a href="f-o/fo12.html">
-                <span class="numero">Fiche 12 :</span>
-                <span class="theme"
-                  >Systèmes de sécurité et d'aides à la conduite.
-                </span>
-              </a>
+              <a href="permis-ce/t-v2/t6-ce.html">Thème 6 : Transport de marchandises</a>
             </li>
           </ul>
         </nav>
       </section>
 
-      <section id="rse-ct">
-        <h2>RSE et Code du travail</h2>
-        <p>Ici prévu réglementation RSE, Code du travail, Code de la route :</p>
+      <section id="s-3">
+        <h3>Socle 3 : essais de frein.</h3>
+        <p>park puis service avec phrase de fin.</p>
+      </section>
+
+      <section id="m-ce">
+        <h3>Manœuvres.</h3>
+        <p>Conseils, photos, repaires...</p>
+      </section>
+
+      <section id="d">
+        <h3>Dételage.</h3>
+        <p>Immo, sol, park, cale, béquille, prises, verrou...</p>
+      </section>
+
+      <section id="g-e-ce">
+        <h3>Grille d'évaluation</h3>
+      </section>
+    </section>
+
+    <section id="fiches-orales">
+      <h2>Fiches orales</h2>
+
+      <p>Choisissez votre fiche :</p>
+
+      <nav>
         <ul>
-          <!-- Initialise une liste.-->
           <li>
-            RSE et code du travail :
-            <!-- Elément d'une liste.-->
-            <ul>
-              <!-- J'initialise une liste dans une liste. 
+            <a href="f-o/fo1.html">
+              <span class="numero">Fiche 1 :</span>
+              <span class="theme">Conduite dans des conditions atmosphériques difficiles, route
+                de nuit.
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="f-o/fo2.html">
+              <span class="numero">Fiche 2 :</span>
+              <span class="theme">Comportement en cas d'accident. </span>
+            </a>
+          </li>
+          <li>
+            <a href="f-o/fo3.html">
+              <span class="numero">Fiche 3 :</span>
+              <span class="theme">Conduite en montagne ou zones accidentées.
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="f-o/fo4.html">
+              <span class="numero">Fiche 4 :</span>
+              <span class="theme">Gestes et postures. Accident du travail.
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="f-o/fo5.html">
+              <span class="numero">Fiche 5 :</span>
+              <span class="theme">Chargement - Surcharge. </span>
+            </a>
+          </li>
+          <li>
+            <a href="f-o/fo6.html">
+              <span class="numero">Fiche 6 :</span>
+              <span class="theme">Le dépassement. </span>
+            </a>
+          </li>
+          <li>
+            <a href="f-o/fo7.html">
+              <span class="numero">Fiche 7 :</span>
+              <span class="theme">Dynamique du véhicule. </span>
+            </a>
+          </li>
+          <li>
+            <a href="f-o/fo8.html">
+              <span class="numero">Fiche 8 :</span>
+              <span class="theme">Alcool, stupéfiants, médicaments. </span>
+            </a>
+          </li>
+          <li>
+            <a href="f-o/fo9.html">
+              <span class="numero">Fiche 9 :</span>
+              <span class="theme">Eco-conduite et conduite citoyenne. </span>
+            </a>
+          </li>
+          <li>
+            <a href="f-o/fo10.html">
+              <span class="numero">Fiche 10 :</span>
+              <span class="theme">Porte-à-faux - Angles morts. </span>
+            </a>
+          </li>
+          <li>
+            <a href="f-o/fo11.html">
+              <span class="numero">Fiche 11 :</span>
+              <span class="theme">Comportement en tunnels et aux passages à niveau.
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="f-o/fo12.html">
+              <span class="numero">Fiche 12 :</span>
+              <span class="theme">Systèmes de sécurité et d'aides à la conduite.
+              </span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+
+    <section id="rse-ct">
+      <h2>RSE et Code du travail</h2>
+      <p>Ici prévu réglementation RSE, Code du travail, Code de la route :</p>
+      <ul>
+        <!-- Initialise une liste.-->
+        <li>
+          RSE et code du travail :
+          <!-- Elément d'une liste.-->
+          <ul>
+            <!-- J'initialise une liste dans une liste. 
               Pour cela je ferme le 1er élément de liste seulement après.-->
-              <li>Temps de conduite;</li>
-              <li>Temps de repos;</li>
-              <li>Temps de travail effectifs;</li>
-              <li>Amplitude;</li>
-              <li>Sanctions si infractions.</li>
-            </ul>
-          </li>
-          <!-- Je ferme le 1er élément de la liste initiale ici. -->
+            <li>Temps de conduite;</li>
+            <li>Temps de repos;</li>
+            <li>Temps de travail effectifs;</li>
+            <li>Amplitude;</li>
+            <li>Sanctions si infractions.</li>
+          </ul>
+        </li>
+        <!-- Je ferme le 1er élément de la liste initiale ici. -->
 
-          <li>
-            <!-- 2 ème élément de liste. -->
-            Code de la route :
-            <ul>
-              <!-- Je créé une liste dans une liste, comme plus haut. -->
-              <li>PV;</li>
-              <li>PTAC;</li>
-              <li>PTRA;</li>
-              <li>MMA;</li>
-              <li>Charge utile;</li>
-              <li>Poids réel;</li>
-              <li>Sanctions si surcharges.</li>
-            </ul>
-            <!-- Je ferme la liste dans la liste ici.-->
-          </li>
-          <!-- Je ferme le 2ème élément ici de la liste initiale.-->
-        </ul>
-        <!-- Je ferme la liste initiale.-->
-      </section>
+        <li>
+          <!-- 2 ème élément de liste. -->
+          Code de la route :
+          <ul>
+            <!-- Je créé une liste dans une liste, comme plus haut. -->
+            <li>PV;</li>
+            <li>PTAC;</li>
+            <li>PTRA;</li>
+            <li>MMA;</li>
+            <li>Charge utile;</li>
+            <li>Poids réel;</li>
+            <li>Sanctions si surcharges.</li>
+          </ul>
+          <!-- Je ferme la liste dans la liste ici.-->
+        </li>
+        <!-- Je ferme le 2ème élément ici de la liste initiale.-->
+      </ul>
+      <!-- Je ferme la liste initiale.-->
+    </section>
 
-      <section id="chronotachygraphe">
-        <h2>Chronotachygraphe</h2>
-        <p>
-          Ici prévu la partie utilisation du chronotachygraphe numérique et à
-          disque :
-        </p>
-        <ul>
-          <li>Cartes;</li>
-          <li>Symboles;</li>
-          <li>Naviguer sur un chronotachygraphe numérique;</li>
-          <li>Utiliser un chronotachygraphe à disque;</li>
-          <li>Utiliser un "petit menteur";</li>
-          <li>Sanctions si infractions.</li>
-        </ul>
-      </section>
-
-      <section id="c-r">
-        <h2>Code de la route</h2>
-        <p hidden>Panneaux, situations, questionnaire ? Pas prio.</p>
-        <!--hidden pour cacher l'écris.-->
-      </section>
-
-      <section id="m-e-s">
-        <h2>Mise en situation</h2>
-        <p>mise à quai, vérif, lettre de voiture, (dé)chargement.</p>
-      </section>
-    </main>
-
-    <footer>
-      <!-- 4. Pied de page. Informations légales.-->
-      <p>Contact : remy.malmon82@gmail.com</p>
+    <section id="chronotachygraphe">
+      <h2>Chronotachygraphe</h2>
       <p>
-        Ce site fait office de premier projet, et est en plein cours de
-        développement.
+        Ici prévu la partie utilisation du chronotachygraphe numérique et à
+        disque :
       </p>
-      <p>
-        Pour toute réclamation, adressez-vous à l'adresse e-mail ci-dessus. Une
-        réponse vous sera attribuée dans les meilleurs délais.
-      </p>
-    </footer>
-  </body>
+      <ul>
+        <li>Cartes;</li>
+        <li>Symboles;</li>
+        <li>Naviguer sur un chronotachygraphe numérique;</li>
+        <li>Utiliser un chronotachygraphe à disque;</li>
+        <li>Utiliser un "petit menteur";</li>
+        <li>Sanctions si infractions.</li>
+      </ul>
+    </section>
+
+    <section id="c-r">
+      <h2>Code de la route</h2>
+      <p hidden>Panneaux, situations, questionnaire ? Pas prio.</p>
+      <!--hidden pour cacher l'écris.-->
+    </section>
+
+    <section id="m-e-s">
+      <h2>Mise en situation</h2>
+      <p>mise à quai, vérif, lettre de voiture, (dé)chargement.</p>
+    </section>
+  </main>
+
+  <footer>
+    <!-- 4. Pied de page. Informations légales.-->
+    <p>Contact : remy.malmon82@gmail.com</p>
+    <p>
+      Ce site fait office de premier projet, et est en plein cours de
+      développement.
+    </p>
+    <p>
+      Pour toute réclamation, adressez-vous à l'adresse e-mail ci-dessus. Une
+      réponse vous sera attribuée dans les meilleurs délais.
+    </p>
+  </footer>
+</body>
+
 </html>
 <!-- html = racine de la page. -->
