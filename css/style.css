@@ -1,0 +1,58 @@
+body{
+    background-color: #f5f5f5;
+}
+
+h1{
+    color : rgb(13, 196, 13); text-align: center; background-color: rgb(4, 17, 131); 
+    font-size: 50px;
+}
+
+h2{
+    color : black; background-color: rgb(16, 236, 16); font-size: 30px;
+}
+
+h3{
+    color: black; background-color: rgb(67, 67, 245); font-size: 24px;
+}
+
+h4{
+    color: orangered; background-color: white; font-size: 18px;
+}
+
+p{
+    color: black; line-height: 1.5; font-size: 18px;
+}
+
+.note{
+    color :rgb(6, 3, 167); border: 1px solid rgb(6, 3, 167); padding: 5px 10px; 
+    margin: 5px 20px; border-radius: 10px;
+}
+
+ul{
+    color: black; background-color: white; font-size : 18px;
+}
+
+h5{
+    color:rgb(172, 146, 1); font-size: 18px;
+}
+
+nav{
+    color: black; background-color:white; font-size: 18px; 
+}
+
+.fo{
+    background-color: white; border: 5px solid rgb(0, 0, 0); 
+    border-radius: 30px; padding: 20px; margin: 20px; max-width: 700px; min-width: 400px;
+}
+
+.fo h1{
+    color: black; background-color: rgb(245, 191, 76); border: 2px solid #000000; 
+    border-radius: 10px;
+}
+
+.fo p{
+    font-size: 20px;
+}
+.fo ul{
+    font-size: 20px;
+}
