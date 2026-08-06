@@ -1,10 +1,14 @@
-body{
-    background-color: #f5f5f5;
+*{ /* * = tous les éléments*/
+    box-sizing: border-box; /* inclut padding + bordure dans la taille définie (width; margnin, padding). */
 }
 
-h1{
-    color : rgb(13, 196, 13); text-align: center; background-color: rgb(4, 17, 131); 
-    font-size: 50px;
+body{
+    background-color: #f5f5f5; /*Couleur de fond*/
+}
+
+h1{ /*Propriétés mises sur h1*/
+    color : rgb(13, 196, 13); text-align: center /*Alignement de texte*/; background-color: rgb(4, 17, 131); 
+    font-size: 50px /*taille de texte*/;
 }
 
 h2{
@@ -24,8 +28,9 @@ p{
 }
 
 .note{
-    color :rgb(6, 3, 167); border: 1px solid rgb(6, 3, 167); padding: 5px 10px; 
-    margin: 5px 20px; border-radius: 10px;
+    color :rgb(6, 3, 167); border: 1px solid rgb(6, 3, 167) /*encadré, bordure*, solid = trait constant/; 
+    padding: 5px 10px /*marge intérieur de la bordure*/; 
+    margin: 5px 20px /*Marge extérieure de la bordure*/; border-radius: 10px /*Arrondir les angles de la bordure*/;
 }
 
 ul{
@@ -36,13 +41,15 @@ h5{
     color:rgb(172, 146, 1); font-size: 18px;
 }
 
-nav{
-    color: black; background-color:white; font-size: 18px; 
+nav a{
+    color: black; background-color:white; font-size: 18px; border: 1px solid black; 
+    padding: 5px; margin: 5px; font-weight: bold /*Epaisseur des caractères : gras*/; 
+    text-decoration: none /*Enlever le soulignage auto du nav*/;
 }
 
 .fo{
     background-color: white; border: 5px solid rgb(0, 0, 0); 
-    border-radius: 30px; padding: 20px; margin: 20px; max-width: 700px; min-width: 400px;
+    border-radius: 30px; padding: 20px; margin: 20px; max-width: 700px; min-width: 400px; /*width = largeur*/
 }
 
 .fo h1{
