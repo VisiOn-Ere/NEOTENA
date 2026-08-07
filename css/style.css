@@ -1,5 +1,7 @@
-*{ /* * = tous les éléments*/
-    box-sizing: border-box; /* inclut padding + bordure dans la taille définie (width; margnin, padding). */
+*{ /* "*" = tous les éléments*/
+    box-sizing: border-box; /* inclut padding + bordure dans la taille 
+    définie (width; margnin, padding). 
+    Permet d'avoir la vrai largeur, pas la largeur + la marge. */
 }
 
 body{
@@ -7,7 +9,9 @@ body{
 }
 
 h1{ /*Propriétés mises sur h1*/
-    color : rgb(13, 196, 13); text-align: center /*Alignement de texte*/; background-color: rgb(4, 17, 131); 
+    color : rgb(13, 196, 13); 
+    text-align: center /*Alignement de texte*/; 
+    background-color: rgb(4, 17, 131); 
     font-size: 50px /*taille de texte*/;
 }
 
@@ -28,9 +32,12 @@ p{
 }
 
 .note{
-    color :rgb(6, 3, 167); border: 1px solid rgb(6, 3, 167) /*encadré, bordure*, solid = trait constant/; 
+    color :rgb(6, 3, 167); 
+    border: 1px solid rgb(6, 3, 167) /*encadré, bordure*, 
+    solid = trait constant/; 
     padding: 5px 10px /*marge intérieur de la bordure*/; 
-    margin: 5px 20px /*Marge extérieure de la bordure*/; border-radius: 10px /*Arrondir les angles de la bordure*/;
+    margin: 5px 20px /*Marge extérieure de la bordure*/; 
+    border-radius: 10px /*Arrondir les angles de la bordure*/;
 }
 
 ul{
@@ -41,19 +48,38 @@ h5{
     color:rgb(172, 146, 1); font-size: 18px;
 }
 
+h6{
+    color: black; font-size: 16px; background-color: white;
+}
+
 nav a{
-    color: black; background-color:white; font-size: 18px; border: 1px solid black; 
-    padding: 5px; margin: 5px; font-weight: bold /*Epaisseur des caractères : gras*/; 
+    color: black; background-color:white; font-size: 18px; 
+    border: 1px solid black; 
+    padding: 5px; margin: 5px; 
+    font-weight: bold /*Epaisseur des caractères : gras*/; 
     text-decoration: none /*Enlever le soulignage auto du nav*/;
+    display: inline-block;/*display = façon dont la boîte se comporte
+    dans la mise en page;
+    inline = élément dans la ligne; block = élément en bloc, prend sa 
+    propre ligne et dont je peux contrôler les dimensions; 
+    inline-block = reste en ligne mais possède le comportement 
+    d'une boîte; permet de mettre côte à côte et donner un comportement 
+    de bloc. Un bloc prend sa propre ligne par défaut.
+    <p> est un block par défaut, donc pas de problème.
+    <a> est un élément inline, il reste dans sa ligne de texte, les
+    dimensions surtout verticales ne se comportent pas comme un block
+    normal.*/
 }
 
 .fo{
     background-color: white; border: 5px solid rgb(0, 0, 0); 
-    border-radius: 30px; padding: 20px; margin: 20px; max-width: 700px; min-width: 400px; /*width = largeur*/
+    border-radius: 30px; padding: 20px; margin: 20px; max-width: 700px; 
+    min-width: 400px; /*width = largeur*/
 }
 
 .fo h1{
-    color: black; background-color: rgb(245, 191, 76); border: 2px solid #000000; 
+    color: black; background-color: rgb(245, 191, 76); 
+    border: 2px solid #000000; 
     border-radius: 10px;
 }
 
